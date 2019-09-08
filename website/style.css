@@ -1,0 +1,148 @@
+body{
+    overflow-y: auto;
+overflow-x: hidden;
+background-color: rgba(230, 210, 121, 0.993);
+  }
+.container1 img{
+position: relative;
+width: 100%;
+  height: auto;
+  opacity: 2; 
+}
+.container1 h1{
+  position: absolute;
+   
+   background-color: rgba(238, 155, 155, 0.055);
+   font-size: 50px;
+   color: black;
+   font-family: Verdana;
+   font-style: bold;
+   font-style: italic;
+  
+   top: 2px; left: 1%;
+   text-align: center;
+}
+h1 img{
+  border-radius: 20px;
+}
+#countries{
+    transition: transform 0.1s;
+	border-radius: 10px; 
+        width: 100%;
+}
+#countries:hover{
+    transform: scale(0.9); 
+}
+#about{
+    position: absolute;
+    top: 10px;
+    text-decoration: underline;
+    color: black;
+    border-radius: 8px;
+    font-family: verdana;
+    padding: 10px;
+    font-weight: bolder;
+    border: 0.5px solid lightgray;
+    right: 400px; max-width: 100%;
+    background-color: lightgrey;
+}
+#visit{
+    position: absolute;
+    top: 10px;text-decoration: underline;
+    color: black;
+    border-radius: 8px;font-weight: bolder;
+    font-family: verdana;
+    right: 300px; max-width: 100%;
+    padding: 10px;
+    border: 0.5px solid lightgray;
+    background-color: lightgrey;
+}
+#price{
+    position: absolute;
+    top: 10px;text-decoration: underline;
+    color: black;
+    border-radius: 8px;
+    font-family: verdana;
+    right: 200px;font-weight: bolder;
+    padding: 10px; max-width: 100%;
+    border: 0.5px solid lightgray;
+    background-color: lightgrey;
+}
+#policy{
+    position: absolute;
+    top: 10px;text-decoration: underline    ;
+    color: black;
+    border-radius: 8px;
+    font-family: verdana;
+    right: 50px;font-weight: bolder;
+    max-width: 100%;
+    padding: 10px;
+    border: 0.5px solid lightgray;
+    background-color: lightgray;
+}
+footer{
+    width: 100%;
+    border-radius: 10px;
+    background-color: wheat;
+    padding: 30px;
+    margin: 15px auto;
+    text-align: center;
+    height: auto;
+    border: 0.5px solid black;
+}
+.nonvip
+{
+    border: 1px solid brown;
+    border-right: none;
+    border-left: none;
+    border-radius: 10px;
+    font-weight: bold;
+    
+}
+.vip{
+    border: 1px solid brown;
+    border-radius: 10px;
+    border-left: none;
+    border-right: none;
+    font-weight: bold;
+}
+.bg-1
+{
+    background-color: tomato;
+}
+
+.textbox{
+    margin: 2px;
+    padding: 5px;
+    border: 1px solid lightgrey;
+    }
+    .header
+    {
+        
+        border: 2px solid black;
+        background-color: lightgrey;
+        color: white;
+        text-align: center;
+    }
+    #errormsg{
+        border: 2px solid red;
+        text-align: center;
+        padding: 10px;
+        margin: 2px;
+        background-color: tomato;
+    }
+    
+    #pplaces
+    {
+        transition: transform 0.1s;
+        border-radius: 10px; 
+        width: 100%;
+}
+  #pplaces:hover{
+    transform: scale(0.9); 
+}
+table{
+	margin: 50px;
+}
+    
+
